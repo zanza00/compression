@@ -32,12 +32,10 @@ console.log("===BEGIN JSON===");
 const extractedData = JSON.stringify({
   acr: "1",
   email_verified: true,
-  realm_access: {
-    roles: ["offline_access", "uma_authorization", "batcave"]
-  },
-  organizations: [],
+  realm_access_roles: ["offline_access", "uma_authorization", "batcave"],
+  organizations: ["BatFamily"],
   name: "Bruce Wayne",
-  preferred_username: "bruce@wayne.com",
+  preferred_username: "Batman",
   given_name: "Bruce",
   family_name: "Wayne",
   email: "bruce@wayne.com"
